@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge 1. SHAREPOINT _ CONCEVOIR L’APPARENCE DU",
+  "Type": "Screen",
+  "Id": "94qJMezkQECdsUxbL-n9tw",
+  "Reference": "DnpjYv1ptEqBci6zaOiygg/94qJMezkQECdsUxbL-n9tw",
+  "ParentRef": "DnpjYv1ptEqBci6zaOiygg/-5vH2o1CCUOktzsitRPWSQ",
+  "Created": "2025-08-01T14:27:26.3846724Z",
+  "Updated": "2025-08-01T14:27:26.3846724Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

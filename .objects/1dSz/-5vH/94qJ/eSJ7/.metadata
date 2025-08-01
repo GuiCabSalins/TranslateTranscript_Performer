@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Télécharger au format .…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "eSJ7Xp8Ohkaf-8nuNxfWSw",
+  "Reference": "DnpjYv1ptEqBci6zaOiygg/eSJ7Xp8Ohkaf-8nuNxfWSw",
+  "ParentRef": "DnpjYv1ptEqBci6zaOiygg/94qJMezkQECdsUxbL-n9tw",
+  "Created": "2025-08-01T14:49:38.9002244Z",
+  "Updated": "2025-08-01T14:49:38.9002244Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

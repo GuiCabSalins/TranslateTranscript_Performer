@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Wrpvih5v3U69T1elbsHdHA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="groupesalins.sharepoint.com/sites/TOGETHERLEARNINGCENTER/Traductions/Forms/AllItems.aspx" CVScreenId="525fdcb7-06e2-48ba-8147-924952c03863" CvTextArea="1829, 699, 78, 16" CvTextArgument="Transcription" CvType="Text" DesignTimeRectangle="164, 284, 91, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl id='id_*' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='id__17' tag='SPAN' type='' class='ms-Button-label label-100' aaname='Enregistrer' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Enregistrer' /&gt;" Guid="46b2c646-a8d6-4817-b3db-dc53395b2467" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='{}' title='*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3b2f4ff664d72ef64f43039ca5956263.png" xmlns="">0ZiElEr4-EU-TdC20zZQRIw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
