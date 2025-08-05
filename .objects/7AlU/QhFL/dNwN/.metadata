@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Ouvrir",
+  "Type": "Screen",
+  "Id": "dNwNO6ZbjkCQF_shx9kaoA",
+  "Reference": "DnpjYv1ptEqBci6zaOiygg/dNwNO6ZbjkCQF_shx9kaoA",
+  "ParentRef": "DnpjYv1ptEqBci6zaOiygg/QhFLCS4OU0S67KFJ0vnAXA",
+  "Created": "2025-08-04T13:26:02.3858332Z",
+  "Updated": "2025-08-04T13:26:02.3858332Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

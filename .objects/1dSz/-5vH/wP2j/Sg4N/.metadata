@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Sélectionner le fichier",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Sg4NuuqBxUWBFR0EOf6WgQ",
+  "Reference": "DnpjYv1ptEqBci6zaOiygg/Sg4NuuqBxUWBFR0EOf6WgQ",
+  "ParentRef": "DnpjYv1ptEqBci6zaOiygg/wP2j08tm-Uq1FlYjwqdXtg",
+  "Created": "2025-08-04T13:25:06.2371499Z",
+  "Updated": "2025-08-04T13:25:06.2371499Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

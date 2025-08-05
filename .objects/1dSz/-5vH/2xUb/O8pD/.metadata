@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Terminé(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "O8pDj2WIokeNa2YtXnyRkg",
+  "Reference": "DnpjYv1ptEqBci6zaOiygg/O8pDj2WIokeNa2YtXnyRkg",
+  "ParentRef": "DnpjYv1ptEqBci6zaOiygg/2xUbtXbAZEKJy-xf8EG6EA",
+  "Created": "2025-08-05T07:32:36.4683965Z",
+  "Updated": "2025-08-05T07:32:36.4683965Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

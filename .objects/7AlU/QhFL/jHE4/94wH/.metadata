@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Transcription et légend…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "94wHoHpiLUS396AWy6_lTw",
+  "Reference": "DnpjYv1ptEqBci6zaOiygg/94wHoHpiLUS396AWy6_lTw",
+  "ParentRef": "DnpjYv1ptEqBci6zaOiygg/jHE4oQZfEki_AZ3PQLnraA",
+  "Created": "2025-08-05T12:21:30.0002944Z",
+  "Updated": "2025-08-05T12:21:30.0002944Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Transcription",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Qz0LW6Mjz0mafTYrIunIlQ",
+  "Reference": "DnpjYv1ptEqBci6zaOiygg/Qz0LW6Mjz0mafTYrIunIlQ",
+  "ParentRef": "DnpjYv1ptEqBci6zaOiygg/vTwFj9KbU0uz-L3eI-yOJw",
+  "Created": "2025-08-04T12:33:43.8218609Z",
+  "Updated": "2025-08-04T12:33:43.8218609Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Langue",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "8fzuZ30hmkyV0IQWov31Vg",
+  "Reference": "DnpjYv1ptEqBci6zaOiygg/8fzuZ30hmkyV0IQWov31Vg",
+  "ParentRef": "DnpjYv1ptEqBci6zaOiygg/wP2j08tm-Uq1FlYjwqdXtg",
+  "Created": "2025-08-04T13:24:18.8735778Z",
+  "Updated": "2025-08-04T13:24:18.8735778Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

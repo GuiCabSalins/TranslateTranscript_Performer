@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Charger",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "EucSUa-Y5ku4kj-C-fiakQ",
+  "Reference": "DnpjYv1ptEqBci6zaOiygg/EucSUa-Y5ku4kj-C-fiakQ",
+  "ParentRef": "DnpjYv1ptEqBci6zaOiygg/wP2j08tm-Uq1FlYjwqdXtg",
+  "Created": "2025-08-04T13:23:34.0302599Z",
+  "Updated": "2025-08-04T13:23:34.0302599Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

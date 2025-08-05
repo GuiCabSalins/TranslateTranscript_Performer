@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Télécharger(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "E5lDNdkN6E-A_GfGFJM1QA",
+  "Reference": "DnpjYv1ptEqBci6zaOiygg/E5lDNdkN6E-A_GfGFJM1QA",
+  "ParentRef": "DnpjYv1ptEqBci6zaOiygg/94qJMezkQECdsUxbL-n9tw",
+  "Created": "2025-08-04T09:27:42.3273938Z",
+  "Updated": "2025-08-04T09:27:42.3273938Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FGCh-WsyQ0yfoeTK-JQ7Kw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="groupesalins.sharepoint.com/sites/TOGETHERLEARNINGCENTER/_layouts/15/stream.aspx" CVScreenId="45f49d0c-01cc-4d64-b153-ff920d04493b" CvTextArea="1842, 706, 72, 16" CvTextArgument="Transcription" CvType="Text" DesignTimeRectangle="1839, 657, 80, 80" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;span' idx='4' parentid='appRoot' tag='SPAN' /&gt;" Guid="acd9ed08-6de6-4a17-b97c-eaf32ff0f6db" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='{}' title='*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0bd8d04bef9164245226d4ac81958a57.png" xmlns="">0oljgLW2byEGMpppHoRf2BQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Button 'Charger'",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "pToYbNwHdEmoGZVE1LnSXA",
+  "Reference": "DnpjYv1ptEqBci6zaOiygg/pToYbNwHdEmoGZVE1LnSXA",
+  "ParentRef": "DnpjYv1ptEqBci6zaOiygg/jHE4oQZfEki_AZ3PQLnraA",
+  "Created": "2025-08-05T10:11:28.2416343Z",
+  "Updated": "2025-08-05T10:11:28.2416343Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

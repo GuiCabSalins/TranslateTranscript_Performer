@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JFGgOmKYN0mamDJBwH0d3w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="groupesalins.sharepoint.com/sites/TOGETHERLEARNINGCENTER/_layouts/15/stream.aspx" CVScreenId="1bd00257-31fa-41e2-90ea-235f77489dfb" CvElementArea="1653, 1074, 112, 34" CvType="InputBox" DesignTimeRectangle="1655, 1077, 110, 33" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlid='1' title='Ou&amp;amp;vrir' /&gt;" Guid="bf5ad5b0-e737-4213-9677-fe1b55370788" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='#32770' title='Ouvrir' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3cd983a9bc6c510f33912bb41fc21f0e.png" xmlns="">0TNkA-FG5fECKV0POMOyldQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

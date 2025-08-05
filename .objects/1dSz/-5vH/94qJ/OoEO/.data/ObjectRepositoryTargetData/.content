@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ldLKbII5Fk-zU2umx7Ot4A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="da99bf4b-ae4c-47be-91b8-31183883b16b" CvElementArea="258, 1038, 1382, 31" CvType="InputBox" DesignTimeRectangle="273, 1045, 1343, 20" ElementType="InputBox" FuzzySelectorArgument="&lt;wnd ctrlid='1148' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;&lt;wnd ctrlid='1148' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;&lt;wnd ctrlid='1148' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;" Guid="b072c9a9-7b9f-45b7-af1a-7d78eb92bb4c" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='#32770' title='Ouvrir' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="da99bf4b-ae4c-47be-91b8-31183883b16b" CvTextArea="155, 1047, 104, 13" CvTextArgument="Nom du fichier" CvType="Text" DesignTimeRectangle="157, 1045, 106, 20" ElementType="Text" FuzzySelectorArgument="&lt;wnd ctrlid='1090' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' title='&amp;amp;Nom du fichier :' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='&amp;amp;Nom du fichier :' /&gt;" Guid="6fc475be-b33c-4c87-b6f3-b6294ad0baca" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6276985e1a3522dc8b1e6dab284f4c59.png" xmlns="">0wRbja1rLtE22I8FquDtNbA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

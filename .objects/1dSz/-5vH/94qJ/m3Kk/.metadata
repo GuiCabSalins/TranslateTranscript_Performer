@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Téléchargements, suspen…",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "m3KkXn4jfEiDKmDOESTz1Q",
+  "Reference": "DnpjYv1ptEqBci6zaOiygg/m3KkXn4jfEiDKmDOESTz1Q",
+  "ParentRef": "DnpjYv1ptEqBci6zaOiygg/94qJMezkQECdsUxbL-n9tw",
+  "Created": "2025-08-04T10:15:19.4859162Z",
+  "Updated": "2025-08-04T10:15:19.4859162Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

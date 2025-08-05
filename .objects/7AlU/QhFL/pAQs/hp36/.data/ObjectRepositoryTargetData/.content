@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="g1Q50Mm5nUeQhs3UP8avSg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="groupesalins.sharepoint.com/sites/TOGETHERLEARNINGCENTER/_layouts/15/stream.aspx" CVScreenId="c3e04761-4c7a-4277-986c-9422fdbfc686" CvTextArea="1842, 485, 72, 16" CvTextArgument="Transcription" CvType="Text" DesignTimeRectangle="1839, 435, 80, 80" FullSelectorArgument="&lt;webctrl parentid='appRoot' tag='SPAN' innertext='Transcription*' visibleinnertext='Transcription*' /&gt;" Guid="560f0eda-f194-4af7-9c7c-778a5d2ae97b" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='{}' title='*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="78ab9004eb109eb3777bf8fa486d822a.png" xmlns="">0FzLHKfPsy0uha3nibg3roQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

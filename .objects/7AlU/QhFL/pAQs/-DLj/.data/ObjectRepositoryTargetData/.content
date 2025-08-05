@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iyICmYtxlkapaid5gtXlDA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="groupesalins.sharepoint.com/sites/TOGETHERLEARNINGCENTER/_layouts/15/stream.aspx" CVScreenId="3b61b662-0987-4a35-8729-8b21436a5663" CvTextArea="1842, 575, 72, 16" CvTextArgument="Transcription" CvType="Text" DesignTimeRectangle="1839, 525, 80, 80" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;span' parentid='appRoot' tag='SPAN' innertext='Transcription' visibleinnertext='Transcription&amp;#xA;' /&gt;" Guid="53720622-6ccc-4441-ac7f-8c194e01b176" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='{}' title='Formation Téléphonie Teams-20250115_150050-Enregistrement de la réunion.mp4' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7b5cfe8894fb57c21430daae1da0b1f5.png" xmlns="">0B-68bHDVA0ix71cbXtSRcQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

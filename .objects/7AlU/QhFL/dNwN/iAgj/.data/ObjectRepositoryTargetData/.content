@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="N_e2xjHE9EGffdXZQICzzw" Reference="DnpjYv1ptEqBci6zaOiygg/iAgjc_9eIU2UVDYlw-P7zQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="58ac5595-29af-466c-bfc6-a12d75eb7541" CvElementArea="267, 498, 412, 32" CvType="InputBox" DesignTimeRectangle="273, 505, 383, 20" ElementType="InputBox" FuzzySelectorArgument="&lt;wnd ctrlid='1148' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;&lt;wnd ctrlid='1148' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;&lt;wnd ctrlid='1148' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;" Guid="0e12b741-1096-413a-9ebd-90cdc5939ddc" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Ouvrir' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="58ac5595-29af-466c-bfc6-a12d75eb7541" CvTextArea="155, 507, 104, 13" CvTextArgument="Nom du fichier" CvType="Text" DesignTimeRectangle="157, 505, 106, 20" ElementType="Text" FuzzySelectorArgument="&lt;wnd ctrlid='1090' title='&amp;amp;Nom du fichier :' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='&amp;amp;Nom du fichier :' /&gt;" Guid="e20fd74f-9c62-4dfe-8868-11f26ec2dcef" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAG4AAAAYCAYAAAAbIMgnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIxSURBVGhD7ZbRjcQgDESpinrohmLohVrSAScggG1sSDa520PiY7QrIIPtRxzUcRxhaz0pOrC1hja4RbXBLaoNblFtcItqg1tUCJwzKiilg/X9Qm91UMZ149/QG7EkDxXzNcHV3PN/uhbLB6tVMI6ON133+lwMOBWUtsGThW8U6y09jsXboIUDOtcc3F+oA6etDUbFX48WPi7Wi3ocSwL36Rvxb8H5cDjTvepcsVq7OUXms59LiZY1KeFUuDI2L2DtBGc3cCgWFwx9ewZgpJhr7oO1GVYBl3/zHN5/7gXXF7+Yh1APpkPw4EqxAAgKLgcCNzkTAWvoN7MGX1tx/wxV8oCtOx0q+Mw9cNI8LXaXn7fBAnAwLxoj69XlULyzn9ZGbt13wNHFGBxTrPpMS5bCz8+RNhOTYL6po32wL7OGAYPEzONiM3FWnYWGbxSTN/aiOcB2y/hdkAyOnBQEjmmlWThI6kfnq5cEjilwjes3wYn5RTHfOHLIey/QmsXWS/cZawiunLw49hVwwj7rgZO8BL8LmoBrG1tYLKbntnGpZUQxRR6BE/aZtspZsWbghH2zmEKPwA29BL8LmoMrhUIXgjIGk+97de8nFFkCV/bpPuwwFnrByV3iETguP3I5uQyO84oeBl/QhuAY+JfA5QfpRYNecftne7/74Notrh0eesNtsM4CMWCQmPk+VnBgk0rcTKEn4HovOM/4Uc3Aba2jDW5RbXCLaoNbVBvcotrgFtUP+Ehyo/UQXXUAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b5ced7d2426988aa1ce1b2aa6aee8039.png" xmlns="">0S2GHeZBnMEesoh-AlPIvdw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

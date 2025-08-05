@@ -139,10 +139,16 @@
       <AssemblyReference>System.ServiceModel</AssemblyReference>
       <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1052,2534" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="1054,2532" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="InputFolder">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">C:\Users\caban_gu\Downloads\</Literal>
+        </Variable.Default>
+      </Variable>
       <Variable x:TypeArguments="x:Int32" Name="i" />
       <Variable x:TypeArguments="s:String[]" Name="fichiersVTT" />
       <Variable x:TypeArguments="x:Int32" Name="index" />
@@ -152,27 +158,27 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="GetInfosVTTFilesAndDelete" sap:VirtualizedContainerService.HintSize="608,2511" sap2010:WorkflowViewState.IdRef="Sequence_109">
+    <Sequence DisplayName="GetInfosVTTFilesAndDelete" sap:VirtualizedContainerService.HintSize="608,2509" sap2010:WorkflowViewState.IdRef="Sequence_109">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Assign sap:VirtualizedContainerService.HintSize="574,115" sap2010:WorkflowViewState.IdRef="Assign_21">
+      <Assign sap:VirtualizedContainerService.HintSize="574,114" sap2010:WorkflowViewState.IdRef="Assign_21">
         <Assign.To>
           <OutArgument x:TypeArguments="s:String[]">[fichiersVTT]</OutArgument>
         </Assign.To>
         <Assign.Value>
-          <InArgument x:TypeArguments="s:String[]">[If(System.IO.Directory.GetFiles("C:\\Users\\caban_gu\\Downloads", "*.vtt").Length &gt; 0, System.IO.Directory.GetFiles("C:\\Users\\caban_gu\\Downloads", "*.vtt"), New String(){})]</InArgument>
+          <InArgument x:TypeArguments="s:String[]">[If(System.IO.Directory.GetFiles(InputFolder, "*.vtt").Length &gt; 0, System.IO.Directory.GetFiles(InputFolder, "*.vtt"), New String(){})]</InArgument>
         </Assign.Value>
       </Assign>
-      <ui:ForEach x:TypeArguments="x:String" CurrentIndex="[index]" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="574,2313" sap2010:WorkflowViewState.IdRef="ForEach`1_17" Values="[fichiersVTT]">
+      <ui:ForEach x:TypeArguments="x:String" CurrentIndex="[index]" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="574,2312" sap2010:WorkflowViewState.IdRef="ForEach`1_17" Values="[fichiersVTT]">
         <ui:ForEach.Body>
           <ActivityAction x:TypeArguments="x:String">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:String" Name="currentText" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="572,2191" sap2010:WorkflowViewState.IdRef="Sequence_51">
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="572,2190" sap2010:WorkflowViewState.IdRef="Sequence_51">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:String" Name="FileName" />
                 <Variable x:TypeArguments="x:Int32" Name="index_1" />
@@ -182,7 +188,7 @@
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Assign sap:VirtualizedContainerService.HintSize="538,115" sap2010:WorkflowViewState.IdRef="Assign_39">
+              <Assign sap:VirtualizedContainerService.HintSize="538,114" sap2010:WorkflowViewState.IdRef="Assign_39">
                 <Assign.To>
                   <OutArgument x:TypeArguments="x:String">[FileName]</OutArgument>
                 </Assign.To>
@@ -190,7 +196,7 @@
                   <InArgument x:TypeArguments="x:String">[currentText]</InArgument>
                 </Assign.Value>
               </Assign>
-              <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*.vtt" Folder="C:\Users\caban_gu\Downloads" sap:VirtualizedContainerService.HintSize="538,1730" sap2010:WorkflowViewState.IdRef="ForEachFileX_2" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+              <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*.vtt" Folder="[InputFolder]" sap:VirtualizedContainerService.HintSize="538,1730" sap2010:WorkflowViewState.IdRef="ForEachFileX_2" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
                 <ui:ForEachFileX.Body>
                   <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
                     <ActivityAction.Argument1>
@@ -293,7 +299,7 @@
                                   <InArgument x:TypeArguments="x:String">[partContent.Replace("&lt;/v&gt;", "&lt;/v&gt;" &amp; vbCrLf &amp; vbCrLf)]</InArgument>
                                 </Assign.Value>
                               </Assign>
-                              <ui:WriteTextFile File="{x:Null}" DisplayName="Write Text File" FileName="[&quot;C:\Users\caban_gu\Downloads\&quot; + String.Format(&quot;part_{0}.vtt&quot;, i + 1)]" sap:VirtualizedContainerService.HintSize="434,158" sap2010:WorkflowViewState.IdRef="WriteTextFile_11" Text="[partContent]" />
+                              <ui:WriteTextFile File="{x:Null}" DisplayName="Write Text File" FileName="[InputFolder + String.Format(&quot;part_{0}.vtt&quot;, i + 1)]" sap:VirtualizedContainerService.HintSize="434,158" sap2010:WorkflowViewState.IdRef="WriteTextFile_11" Text="[partContent]" />
                             </Sequence>
                           </ActivityAction>
                         </ui:ForEach.Body>

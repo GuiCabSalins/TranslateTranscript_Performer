@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome 6. SHAREPOINT _ LES ALERTES-20250527_1",
+  "Type": "Screen",
+  "Id": "pTeo0J161UStL8F6qhlZaA",
+  "Reference": "DnpjYv1ptEqBci6zaOiygg/pTeo0J161UStL8F6qhlZaA",
+  "ParentRef": "DnpjYv1ptEqBci6zaOiygg/-5vH2o1CCUOktzsitRPWSQ",
+  "Created": "2025-08-04T15:07:14.7964716Z",
+  "Updated": "2025-08-04T15:07:14.7964716Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

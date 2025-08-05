@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Transcription(1)",
+  "Type": "Element",
+  "Id": "-DLjesuXQUqkrS2TEAz8GQ",
+  "Reference": "DnpjYv1ptEqBci6zaOiygg/-DLjesuXQUqkrS2TEAz8GQ",
+  "ParentRef": "DnpjYv1ptEqBci6zaOiygg/pAQs34jbhk6LMfKn1gNskg",
+  "Created": "2025-08-05T10:10:12.1454713Z",
+  "Updated": "2025-08-05T10:10:12.1454713Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
