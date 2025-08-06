@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Paramètres vidéo",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "-9aFSm8CSECbWnvtUZO4mw",
+  "Reference": "DnpjYv1ptEqBci6zaOiygg/-9aFSm8CSECbWnvtUZO4mw",
+  "ParentRef": "DnpjYv1ptEqBci6zaOiygg/jHE4oQZfEki_AZ3PQLnraA",
+  "Created": "2025-08-06T09:03:57.1527871Z",
+  "Updated": "2025-08-06T09:03:57.1527871Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

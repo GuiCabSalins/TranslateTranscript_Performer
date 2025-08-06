@@ -144,7 +144,7 @@
       <AssemblyReference>NPOI.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="911,5749.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="1052,5750" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Int32" Name="index" />
       <Variable x:TypeArguments="umfm:O365DriveRemoteItem[]" Name="fileList" />
@@ -159,13 +159,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Upload file, download file and consolidate" sap:VirtualizedContainerService.HintSize="609.6,5726.4" sap2010:WorkflowViewState.IdRef="Sequence_110">
+    <Sequence DisplayName="Upload file, download file and consolidate" sap:VirtualizedContainerService.HintSize="610,5727" sap2010:WorkflowViewState.IdRef="Sequence_110">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Assign sap:VirtualizedContainerService.HintSize="576,113.6" sap2010:WorkflowViewState.IdRef="Assign_61">
+      <Assign sap:VirtualizedContainerService.HintSize="576,114" sap2010:WorkflowViewState.IdRef="Assign_61">
         <Assign.To>
           <OutArgument x:TypeArguments="x:Int32">[index]</OutArgument>
         </Assign.To>
@@ -173,7 +173,7 @@
           <InArgument x:TypeArguments="x:Int32">1</InArgument>
         </Assign.Value>
       </Assign>
-      <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*.vtt" Folder="[inputFolder]" sap:VirtualizedContainerService.HintSize="576,1032.8" sap2010:WorkflowViewState.IdRef="ForEachFileX_3" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+      <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*.vtt" Folder="[inputFolder]" sap:VirtualizedContainerService.HintSize="576,1035" sap2010:WorkflowViewState.IdRef="ForEachFileX_3" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
         <ui:ForEachFileX.Body>
           <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
             <ActivityAction.Argument1>
@@ -182,15 +182,15 @@
             <ActivityAction.Argument2>
               <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
             </ActivityAction.Argument2>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484.8,737.6" sap2010:WorkflowViewState.IdRef="Sequence_71">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,739" sap2010:WorkflowViewState.IdRef="Sequence_71">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <umaf:UploadFilesConnections BrowserDriveName="{x:Null}" BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" BrowserParentItemId="{x:Null}" BrowserSiteUrl="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" FirstResult="{x:Null}" ItemIdBackup="{x:Reference __ReferenceID0}" ManualEntryDriveName="{x:Null}" ManualEntryItemFullPath="{x:Null}" ManualEntryItemId="{x:Null}" ManualEntryItemRelativePath="{x:Null}" ManualEntrySiteUrl="{x:Null}" Metadata="{x:Null}" MultipleFilesToUpload="{x:Null}" SingleFileToUpload="{x:Null}" AllResults="[fileList]" AuthScopesInvalid="False" ConflictResolution="Replace" ConnectionId="42ad9efc-6259-400b-9372-9eb05235a0c2" DisplayName="Upload Files" FilesInputMode="MultipleByBuilder" sap:VirtualizedContainerService.HintSize="451.2,236.8" sap2010:WorkflowViewState.IdRef="UploadFilesConnections_5" ItemSelectionMode="ItemUrl" ManualEntryItemUrl="https://groupesalins.sharepoint.com/sites/TOGETHERLEARNINGCENTER/Traductions/Forms/AllItems.aspx?id=%2Fsites%2FTOGETHERLEARNINGCENTER%2FTraductions%2FNon%5FTraduit&amp;viewid=80e8043a%2D0958%2D4a2d%2D9c67%2Dd1b98dd15734&amp;ovuser=39315aa1%2Dacc4%2D4239%2Da4ce%2Df03b129882a5%2Ccaban%5Fgu%40salins%2Ecom&amp;OR=Teams%2DHL&amp;CT=1753795422769&amp;clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNTA3MDMxODgwNiIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D" UseConnectionService="True">
+              <umaf:UploadFilesConnections BrowserDriveName="{x:Null}" BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" BrowserParentItemId="{x:Null}" BrowserSiteUrl="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" FirstResult="{x:Null}" ItemIdBackup="{x:Reference __ReferenceID0}" ManualEntryDriveName="{x:Null}" ManualEntryItemFullPath="{x:Null}" ManualEntryItemId="{x:Null}" ManualEntryItemRelativePath="{x:Null}" ManualEntrySiteUrl="{x:Null}" Metadata="{x:Null}" MultipleFilesToUpload="{x:Null}" SingleFileToUpload="{x:Null}" AllResults="[fileList]" AuthScopesInvalid="False" ConflictResolution="Replace" ConnectionId="42ad9efc-6259-400b-9372-9eb05235a0c2" DisplayName="Upload Files" FilesInputMode="MultipleByBuilder" sap:VirtualizedContainerService.HintSize="452,237" sap2010:WorkflowViewState.IdRef="UploadFilesConnections_5" ItemSelectionMode="ItemUrl" ManualEntryItemUrl="https://groupesalins.sharepoint.com/sites/TOGETHERLEARNINGCENTER/Traductions/Forms/AllItems.aspx?id=%2Fsites%2FTOGETHERLEARNINGCENTER%2FTraductions%2FNon%5FTraduit&amp;viewid=80e8043a%2D0958%2D4a2d%2D9c67%2Dd1b98dd15734&amp;ovuser=39315aa1%2Dacc4%2D4239%2Da4ce%2Df03b129882a5%2Ccaban%5Fgu%40salins%2Ecom&amp;OR=Teams%2DHL&amp;CT=1754040406494&amp;clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNTA3MDMxODgwNiIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D" UseConnectionService="True">
                 <umaf:UploadFilesConnections.DriveItemArgument>
-                  <umafm:DriveItemArgument BrowserDriveId="{x:Null}" BrowserDriveName="{x:Null}" BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" BrowserParentDriveId="{x:Null}" BrowserParentDriveName="{x:Null}" BrowserParentItemFriendlyName="{x:Null}" BrowserParentItemId="{x:Null}" BrowserParentPath="{x:Null}" BrowserSiteUrl="{x:Null}" BrowserSpecificUrl="{x:Null}" ConnectionDescriptor="{x:Null}" ConnectionKey="{x:Null}" Item="{x:Null}" ManualEntryDriveName="{x:Null}" ManualEntryItemFullPath="{x:Null}" ManualEntryItemId="{x:Null}" ManualEntryItemRelativePath="{x:Null}" ManualEntrySiteUrl="{x:Null}" ReferenceId="{x:Null}" FullPathHint="" ItemSelectionMode="ItemUrl" ManualEntryItemUrl="https://groupesalins.sharepoint.com/sites/TOGETHERLEARNINGCENTER/Traductions/Forms/AllItems.aspx?id=%2Fsites%2FTOGETHERLEARNINGCENTER%2FTraductions%2FNon%5FTraduit&amp;viewid=80e8043a%2D0958%2D4a2d%2D9c67%2Dd1b98dd15734&amp;ovuser=39315aa1%2Dacc4%2D4239%2Da4ce%2Df03b129882a5%2Ccaban%5Fgu%40salins%2Ecom&amp;OR=Teams%2DHL&amp;CT=1753795422769&amp;clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNTA3MDMxODgwNiIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D" ParentFullPathHint="">
+                  <umafm:DriveItemArgument BrowserDriveId="{x:Null}" BrowserDriveName="{x:Null}" BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" BrowserParentDriveId="{x:Null}" BrowserParentDriveName="{x:Null}" BrowserParentItemFriendlyName="{x:Null}" BrowserParentItemId="{x:Null}" BrowserParentPath="{x:Null}" BrowserSiteUrl="{x:Null}" BrowserSpecificUrl="{x:Null}" ConnectionDescriptor="{x:Null}" ConnectionKey="{x:Null}" Item="{x:Null}" ManualEntryDriveName="{x:Null}" ManualEntryItemFullPath="{x:Null}" ManualEntryItemId="{x:Null}" ManualEntryItemRelativePath="{x:Null}" ManualEntrySiteUrl="{x:Null}" ReferenceId="{x:Null}" FullPathHint="" ItemSelectionMode="ItemUrl" ManualEntryItemUrl="https://groupesalins.sharepoint.com/sites/TOGETHERLEARNINGCENTER/Traductions/Forms/AllItems.aspx?id=%2Fsites%2FTOGETHERLEARNINGCENTER%2FTraductions%2FNon%5FTraduit&amp;viewid=80e8043a%2D0958%2D4a2d%2D9c67%2Dd1b98dd15734&amp;ovuser=39315aa1%2Dacc4%2D4239%2Da4ce%2Df03b129882a5%2Ccaban%5Fgu%40salins%2Ecom&amp;OR=Teams%2DHL&amp;CT=1754040406494&amp;clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNTA3MDMxODgwNiIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D" ParentFullPathHint="">
                     <umafm:DriveItemArgument.ItemIdBackup>
                       <usau:BackupSlot x:TypeArguments="umafe:EDriveItemMode" x:Name="__ReferenceID0" StoredValue="ItemUrl">
                         <usau:BackupSlot.BackupValues>
@@ -222,7 +222,7 @@
                   </scg:List>
                 </umaf:UploadFilesConnections.FilesList>
               </umaf:UploadFilesConnections>
-              <Assign sap:VirtualizedContainerService.HintSize="451.2,113.6" sap2010:WorkflowViewState.IdRef="Assign_64">
+              <Assign sap:VirtualizedContainerService.HintSize="452,114" sap2010:WorkflowViewState.IdRef="Assign_64">
                 <Assign.To>
                   <OutArgument x:TypeArguments="x:Int32">[index]</OutArgument>
                 </Assign.To>
@@ -230,7 +230,7 @@
                   <InArgument x:TypeArguments="x:Int32">[index +1]</InArgument>
                 </Assign.Value>
               </Assign>
-              <If Condition="[index=11]" sap:VirtualizedContainerService.HintSize="451.2,327.2" sap2010:WorkflowViewState.IdRef="If_6">
+              <If Condition="[index=11]" sap:VirtualizedContainerService.HintSize="452,328" sap2010:WorkflowViewState.IdRef="If_6">
                 <If.Then>
                   <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,108" sap2010:WorkflowViewState.IdRef="Sequence_72">
                     <sap:WorkflowViewStateService.ViewState>
@@ -255,7 +255,7 @@
           </ActivityAction>
         </ui:ForEachFileX.Body>
       </ui:ForEachFileX>
-      <Assign sap:VirtualizedContainerService.HintSize="576,115" sap2010:WorkflowViewState.IdRef="Assign_66">
+      <Assign sap:VirtualizedContainerService.HintSize="576,114" sap2010:WorkflowViewState.IdRef="Assign_66">
         <Assign.To>
           <OutArgument x:TypeArguments="x:Int32">[index]</OutArgument>
         </Assign.To>
@@ -263,7 +263,7 @@
           <InArgument x:TypeArguments="x:Int32">1</InArgument>
         </Assign.Value>
       </Assign>
-      <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*.vtt" Folder="[inputFolder]" sap:VirtualizedContainerService.HintSize="576,912" sap2010:WorkflowViewState.IdRef="ForEachFileX_4" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+      <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*.vtt" Folder="[inputFolder]" sap:VirtualizedContainerService.HintSize="576,911" sap2010:WorkflowViewState.IdRef="ForEachFileX_4" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
         <ui:ForEachFileX.Body>
           <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
             <ActivityAction.Argument1>
@@ -272,14 +272,14 @@
             <ActivityAction.Argument2>
               <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
             </ActivityAction.Argument2>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,616" sap2010:WorkflowViewState.IdRef="Sequence_74">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,615" sap2010:WorkflowViewState.IdRef="Sequence_74">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
               <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="452,113" sap2010:WorkflowViewState.IdRef="DeleteFileX_1" Path="[inputFolder +&quot;part_&quot;+ index.tostring +&quot;.vtt&quot;]" />
-              <Assign sap:VirtualizedContainerService.HintSize="452,115" sap2010:WorkflowViewState.IdRef="Assign_65">
+              <Assign sap:VirtualizedContainerService.HintSize="452,114" sap2010:WorkflowViewState.IdRef="Assign_65">
                 <Assign.To>
                   <OutArgument x:TypeArguments="x:Int32">[index]</OutArgument>
                 </Assign.To>
@@ -312,7 +312,7 @@
           </ActivityAction>
         </ui:ForEachFileX.Body>
       </ui:ForEachFileX>
-      <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[fileList.Count &lt;&gt; 70]" DisplayName="Do Whilea" sap:VirtualizedContainerService.HintSize="576,366.4" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_2" MaxIterations="500">
+      <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[fileList.Count &lt;&gt; 70]" DisplayName="Do Whilea" sap:VirtualizedContainerService.HintSize="576,367" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_2" MaxIterations="500">
         <ui:InterruptibleDoWhile.Body>
           <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,236" sap2010:WorkflowViewState.IdRef="Sequence_53">
             <sap:WorkflowViewStateService.ViewState>
@@ -350,7 +350,7 @@
           </Sequence>
         </ui:InterruptibleDoWhile.Body>
       </ui:InterruptibleDoWhile>
-      <umaf:ForEachFileFolderConnections BrowserDriveName="{x:Null}" BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" BrowserParentItemId="{x:Null}" BrowserSiteUrl="{x:Null}" BrowserSpecificUrl="{x:Null}" ConnectionAccountName="{x:Null}" Filter="{x:Null}" FreeTextFilter="{x:Null}" ItemIdBackup="{x:Reference __ReferenceID5}" Length="{x:Null}" ManualEntryDriveName="{x:Null}" ManualEntryItemFullPath="{x:Null}" ManualEntryItemId="{x:Null}" ManualEntryItemRelativePath="{x:Null}" ManualEntryItemUrl="{x:Reference __ReferenceID4}" ManualEntrySiteUrl="{x:Null}" QueryFilter="{x:Null}" SimpleSearch="{x:Null}" AuthScopesInvalid="False" ConnectionId="42ad9efc-6259-400b-9372-9eb05235a0c2" CurrentItemVariableName="CurrentItem" DisplayName="For Each File or Folder" sap:VirtualizedContainerService.HintSize="576,1015.2" sap2010:WorkflowViewState.IdRef="ForEachFileFolderConnections_6" IncludeSubfolders="False" ItemSelectionMode="ItemUrl" MaxResults="200" SearchMode="UseSimple" TrimDuplicates="False" UseConnectionService="True" WhatToReturn="FilesAndFolders">
+      <umaf:ForEachFileFolderConnections BrowserDriveName="{x:Null}" BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" BrowserParentItemId="{x:Null}" BrowserSiteUrl="{x:Null}" BrowserSpecificUrl="{x:Null}" ConnectionAccountName="{x:Null}" Filter="{x:Null}" FreeTextFilter="{x:Null}" ItemIdBackup="{x:Reference __ReferenceID5}" Length="{x:Null}" ManualEntryDriveName="{x:Null}" ManualEntryItemFullPath="{x:Null}" ManualEntryItemId="{x:Null}" ManualEntryItemRelativePath="{x:Null}" ManualEntryItemUrl="{x:Reference __ReferenceID4}" ManualEntrySiteUrl="{x:Null}" QueryFilter="{x:Null}" SimpleSearch="{x:Null}" AuthScopesInvalid="False" ConnectionId="42ad9efc-6259-400b-9372-9eb05235a0c2" CurrentItemVariableName="CurrentItem" DisplayName="For Each File or Folder" sap:VirtualizedContainerService.HintSize="576,1017" sap2010:WorkflowViewState.IdRef="ForEachFileFolderConnections_6" IncludeSubfolders="False" ItemSelectionMode="ItemUrl" MaxResults="200" SearchMode="UseSimple" TrimDuplicates="False" UseConnectionService="True" WhatToReturn="FilesAndFolders">
         <umaf:ForEachFileFolderConnections.Body>
           <ActivityAction x:TypeArguments="umfm:O365DriveRemoteItem, x:Int32">
             <ActivityAction.Argument1>
@@ -359,7 +359,7 @@
             <ActivityAction.Argument2>
               <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentItemIndex" />
             </ActivityAction.Argument2>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="467.2,822.4" sap2010:WorkflowViewState.IdRef="Sequence_83">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="468,824" sap2010:WorkflowViewState.IdRef="Sequence_83">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:String" Name="fullUrl" />
                 <Variable x:TypeArguments="umfm:O365DriveLocalItem" Name="vttFile" />
@@ -370,7 +370,7 @@
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Assign sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_69">
+              <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_69">
                 <Assign.To>
                   <OutArgument x:TypeArguments="x:String">[fullUrl]</OutArgument>
                 </Assign.To>
@@ -378,7 +378,7 @@
                   <InArgument x:TypeArguments="x:String">[CurrentItem.Url.ToString]</InArgument>
                 </Assign.Value>
               </Assign>
-              <umaf:DownloadFileConnections BrowserDriveName="{x:Null}" BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" BrowserParentItemId="{x:Null}" BrowserSiteUrl="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ItemIdBackup="{x:Reference __ReferenceID2}" ManualEntryDriveName="{x:Null}" ManualEntryItemFullPath="{x:Null}" ManualEntryItemId="{x:Null}" ManualEntryItemRelativePath="{x:Null}" ManualEntrySiteUrl="{x:Null}" Result="{x:Null}" AuthScopesInvalid="False" ConflictResolution="Fail" ConnectionId="42ad9efc-6259-400b-9372-9eb05235a0c2" ConvertToPdf="False" DestinationPath="[inputFolder]" DisplayName="Download File" sap:VirtualizedContainerService.HintSize="433.6,184.8" sap2010:WorkflowViewState.IdRef="DownloadFileConnections_4" ItemSelectionMode="ItemUrl" ManualEntryItemUrl="[fullUrl]" NewResult="[vttFile]" UseConnectionService="True">
+              <umaf:DownloadFileConnections BrowserDriveName="{x:Null}" BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" BrowserParentItemId="{x:Null}" BrowserSiteUrl="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ItemIdBackup="{x:Reference __ReferenceID2}" ManualEntryDriveName="{x:Null}" ManualEntryItemFullPath="{x:Null}" ManualEntryItemId="{x:Null}" ManualEntryItemRelativePath="{x:Null}" ManualEntrySiteUrl="{x:Null}" Result="{x:Null}" AuthScopesInvalid="False" ConflictResolution="Fail" ConnectionId="42ad9efc-6259-400b-9372-9eb05235a0c2" ConvertToPdf="False" DestinationPath="[inputFolder]" DisplayName="Download File" sap:VirtualizedContainerService.HintSize="434,185" sap2010:WorkflowViewState.IdRef="DownloadFileConnections_4" ItemSelectionMode="ItemUrl" ManualEntryItemUrl="[fullUrl]" NewResult="[vttFile]" UseConnectionService="True">
                 <umaf:DownloadFileConnections.DriveItemArgument>
                   <umafm:DriveItemArgument BrowserDriveId="{x:Null}" BrowserDriveName="{x:Null}" BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" BrowserParentDriveId="{x:Null}" BrowserParentDriveName="{x:Null}" BrowserParentItemFriendlyName="{x:Null}" BrowserParentItemId="{x:Null}" BrowserParentPath="{x:Null}" BrowserSiteUrl="{x:Null}" BrowserSpecificUrl="{x:Null}" ConnectionDescriptor="{x:Null}" ConnectionKey="{x:Null}" Item="{x:Null}" ManualEntryDriveName="{x:Null}" ManualEntryItemFullPath="{x:Null}" ManualEntryItemId="{x:Null}" ManualEntryItemRelativePath="{x:Null}" ManualEntrySiteUrl="{x:Null}" ReferenceId="{x:Null}" FullPathHint="" ItemSelectionMode="ItemUrl" ManualEntryItemUrl="[fullUrl]" ParentFullPathHint="">
                     <umafm:DriveItemArgument.ItemIdBackup>
@@ -398,8 +398,8 @@
                   </umafm:DriveItemArgument>
                 </umaf:DownloadFileConnections.DriveItemArgument>
               </umaf:DownloadFileConnections>
-              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Info" Message="[fullUrl]" />
-              <Assign sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_68">
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,175" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Info" Message="[fullUrl]" />
+              <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_68">
                 <Assign.To>
                   <OutArgument x:TypeArguments="x:String">[fileURL]</OutArgument>
                 </Assign.To>
@@ -407,7 +407,7 @@
                   <InArgument x:TypeArguments="x:String">[CurrentItem.Url.ToString]</InArgument>
                 </Assign.Value>
               </Assign>
-              <umaf:DeleteItemConnections BrowserDriveName="{x:Null}" BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" BrowserParentItemId="{x:Null}" BrowserSiteUrl="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ItemIdBackup="{x:Reference __ReferenceID3}" ManualEntryDriveName="{x:Null}" ManualEntryItemFullPath="{x:Null}" ManualEntryItemId="{x:Null}" ManualEntryItemRelativePath="{x:Null}" ManualEntrySiteUrl="{x:Null}" AuthScopesInvalid="False" ConnectionId="42ad9efc-6259-400b-9372-9eb05235a0c2" DisplayName="Delete file or folder" sap:VirtualizedContainerService.HintSize="433.6,176" sap2010:WorkflowViewState.IdRef="DeleteItemConnections_2" ItemSelectionMode="ItemUrl" ManualEntryItemUrl="[fileURL]" UseConnectionService="True">
+              <umaf:DeleteItemConnections BrowserDriveName="{x:Null}" BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" BrowserParentItemId="{x:Null}" BrowserSiteUrl="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ItemIdBackup="{x:Reference __ReferenceID3}" ManualEntryDriveName="{x:Null}" ManualEntryItemFullPath="{x:Null}" ManualEntryItemId="{x:Null}" ManualEntryItemRelativePath="{x:Null}" ManualEntrySiteUrl="{x:Null}" AuthScopesInvalid="False" ConnectionId="42ad9efc-6259-400b-9372-9eb05235a0c2" DisplayName="Delete file or folder" sap:VirtualizedContainerService.HintSize="434,176" sap2010:WorkflowViewState.IdRef="DeleteItemConnections_2" ItemSelectionMode="ItemUrl" ManualEntryItemUrl="[fileURL]" UseConnectionService="True">
                 <umaf:DeleteItemConnections.DriveItemArgument>
                   <umafm:DriveItemArgument BrowserDriveId="{x:Null}" BrowserDriveName="{x:Null}" BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" BrowserParentDriveId="{x:Null}" BrowserParentDriveName="{x:Null}" BrowserParentItemFriendlyName="{x:Null}" BrowserParentItemId="{x:Null}" BrowserParentPath="{x:Null}" BrowserSiteUrl="{x:Null}" BrowserSpecificUrl="{x:Null}" ConnectionDescriptor="{x:Null}" ConnectionKey="{x:Null}" Item="{x:Null}" ManualEntryDriveName="{x:Null}" ManualEntryItemFullPath="{x:Null}" ManualEntryItemId="{x:Null}" ManualEntryItemRelativePath="{x:Null}" ManualEntrySiteUrl="{x:Null}" ReferenceId="{x:Null}" FullPathHint="" ItemSelectionMode="ItemUrl" ManualEntryItemUrl="[fileURL]" ParentFullPathHint="">
                     <umafm:DriveItemArgument.ItemIdBackup>
@@ -531,19 +531,19 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:CommentOut>
-      <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each language" sap:VirtualizedContainerService.HintSize="576,2031" sap2010:WorkflowViewState.IdRef="ForEach`1_25" Values="[languages]">
+      <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each language" sap:VirtualizedContainerService.HintSize="576,2029" sap2010:WorkflowViewState.IdRef="ForEach`1_25" Values="[languages]">
         <ui:ForEach.Body>
           <ActivityAction x:TypeArguments="x:String">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:String" Name="language" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="574,1909" sap2010:WorkflowViewState.IdRef="Sequence_94">
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="574,1907" sap2010:WorkflowViewState.IdRef="Sequence_94">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Assign sap:VirtualizedContainerService.HintSize="540,115" sap2010:WorkflowViewState.IdRef="Assign_90">
+              <Assign sap:VirtualizedContainerService.HintSize="540,114" sap2010:WorkflowViewState.IdRef="Assign_90">
                 <Assign.To>
                   <OutArgument x:TypeArguments="x:String">[translatedContent]</OutArgument>
                 </Assign.To>
@@ -553,7 +553,7 @@
                   </InArgument>
                 </Assign.Value>
               </Assign>
-              <Sequence DisplayName="Get the 10 files and concatenate in one" sap:VirtualizedContainerService.HintSize="540,1734" sap2010:WorkflowViewState.IdRef="Sequence_95">
+              <Sequence DisplayName="Get the 10 files and concatenate in one" sap:VirtualizedContainerService.HintSize="540,1733" sap2010:WorkflowViewState.IdRef="Sequence_95">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -585,7 +585,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </ui:CommentOut>
-                <Assign sap:VirtualizedContainerService.HintSize="506,116" sap2010:WorkflowViewState.IdRef="Assign_89">
+                <Assign sap:VirtualizedContainerService.HintSize="506,118" sap2010:WorkflowViewState.IdRef="Assign_89">
                   <Assign.To>
                     <OutArgument x:TypeArguments="s:String[]">[VTTFiles]</OutArgument>
                   </Assign.To>
@@ -595,7 +595,7 @@
     .ToArray()]</InArgument>
                   </Assign.Value>
                 </Assign>
-                <Assign sap:VirtualizedContainerService.HintSize="506,115" sap2010:WorkflowViewState.IdRef="Assign_83">
+                <Assign sap:VirtualizedContainerService.HintSize="506,114" sap2010:WorkflowViewState.IdRef="Assign_83">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:Int32">[index]</OutArgument>
                   </Assign.To>
@@ -603,21 +603,21 @@
                     <InArgument x:TypeArguments="x:Int32">1</InArgument>
                   </Assign.Value>
                 </Assign>
-                <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="506,918" sap2010:WorkflowViewState.IdRef="ForEach`1_26" Values="[VTTFiles]">
+                <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="506,916" sap2010:WorkflowViewState.IdRef="ForEach`1_26" Values="[VTTFiles]">
                   <ui:ForEach.Body>
                     <ActivityAction x:TypeArguments="x:String">
                       <ActivityAction.Argument>
                         <DelegateInArgument x:TypeArguments="x:String" Name="currentText" />
                       </ActivityAction.Argument>
-                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="504,787" sap2010:WorkflowViewState.IdRef="Sequence_98">
+                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="504,785" sap2010:WorkflowViewState.IdRef="Sequence_98">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <If Condition="[currentText = inputFolder + language +&quot;_part_&quot;+ index.tostring +&quot;.vtt&quot;]" sap:VirtualizedContainerService.HintSize="470,727" sap2010:WorkflowViewState.IdRef="If_9">
+                        <If Condition="[currentText = inputFolder + language +&quot;_part_&quot;+ index.tostring +&quot;.vtt&quot;]" sap:VirtualizedContainerService.HintSize="470,725" sap2010:WorkflowViewState.IdRef="If_9">
                           <If.Then>
-                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,507" sap2010:WorkflowViewState.IdRef="Sequence_96">
+                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,505" sap2010:WorkflowViewState.IdRef="Sequence_96">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -625,7 +625,7 @@
                               </sap:WorkflowViewStateService.ViewState>
                               <ui:ReadTextFile File="{x:Null}" Content="[textContent]" DisplayName="Read Text File" FileName="[inputFolder+language +&quot;_part_&quot;+ index.tostring +&quot;.vtt&quot;]" sap:VirtualizedContainerService.HintSize="434,113" sap2010:WorkflowViewState.IdRef="ReadTextFile_9" />
                               <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="434,113" sap2010:WorkflowViewState.IdRef="DeleteFileX_3" Path="[inputFolder+language +&quot;_part_&quot;+ index.tostring +&quot;.vtt&quot;]" />
-                              <Assign sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="Assign_84">
+                              <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_84">
                                 <Assign.To>
                                   <OutArgument x:TypeArguments="x:String">[translatedContent]</OutArgument>
                                 </Assign.To>
@@ -633,7 +633,7 @@
                                   <InArgument x:TypeArguments="x:String">[translatedContent + Environment.NewLine + textContent]</InArgument>
                                 </Assign.Value>
                               </Assign>
-                              <Assign sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="Assign_85">
+                              <Assign sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_85">
                                 <Assign.To>
                                   <OutArgument x:TypeArguments="x:Int32">[index]</OutArgument>
                                 </Assign.To>
