@@ -67,6 +67,7 @@
       <x:String>UiPath.OCR.Contracts</x:String>
       <x:String>UiPath.OCR.Activities</x:String>
       <x:String>UiPath.OCR.Contracts.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -167,7 +168,7 @@
       <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1302,1983" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="1302,2698" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="InputFolder">
         <Variable.Default>
@@ -197,18 +198,108 @@
         </ActivityAction>
       </ui:OpenBrowser.Body>
     </ui:OpenBrowser>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="*" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1302,1646" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="16bd92fd-f393-4135-a8dd-e8188953d503" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="*" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1302,2361" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="16bd92fd-f393-4135-a8dd-e8188953d503" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="526,1396" sap2010:WorkflowViewState.IdRef="Sequence_17">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="526,2111" sap2010:WorkflowViewState.IdRef="Sequence_17">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="Mode" />
+            </Sequence.Variables>
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
+            <uix:NGetText DisplayName="Get Text 'Édition'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="492,190" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="16bd92fd-f393-4135-a8dd-e8188953d503" TextString="[Mode]" Version="V5">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="groupesalins.sharepoint.com/sites/ITInfrastructureOperations/_layouts/15/stream.aspx" CVScreenId="10f08b03-dafe-4dff-82fb-75a595325154" ContentHash="7bpn9RK5akC560oyuR7UUQ" CvElementArea="1549, 316, 171, 44" CvType="InputBox" DesignTimeRectangle="1569, 319, 150, 40" ElementType="Text" FullSelectorArgument="&lt;webctrl aria-role='menuitem' name='Édition' tag='BUTTON' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button' /&gt;" Guid="99813d1d-98eb-44c0-8e1a-96ee89529451" ImageBase64="" InformativeScreenshot="4461647e937aac1f50c15dfa1256a8b0.png" Reference="DnpjYv1ptEqBci6zaOiygg/x6Qp2qJ7L0e5MWnn8cRl9g" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='{}' title='*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="10f08b03-dafe-4dff-82fb-75a595325154" CvTextArea="1781, 330, 71, 21" CvTextArgument="Partager" CvType="Text" DesignTimeRectangle="1727, 319, 175, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Partager' aria-role='menuitem' tag='BUTTON' type='button' class='ms-Button ms-Button--primary ms-Button--hasMenu root-87' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='&amp;#xA;Partager&amp;#xA;' /&gt;" Guid="cee4e5ab-fbde-4ef0-ab9f-73f535498590" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALMAAAAsCAYAAAAuJIllAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAVOSURBVHhe7Z3Pa9tIFMf7F3X/Ed/2lPtCbzkXCnsrZAn00JMDy2IwhJSwEBA0ULOmJLAFQQw+GBqMgykIDBbEGAcENnyXJ82TxqNRo9jOypq8Bx+IRzPSOP5ofjwZ/AoSEo7EK7NAQqKukco8HQJ//Qr88Ysg1APylbzNyRyL/DrfQBD2lteJtzmZcxUFoSaIzIIziMyCM4jMgjOIzIIziMyCM4jMgjOIzIIziMyCM9RG5rM2sLgDOo38MUEgqpe5AXRPgVEPCIcZo9Z6va6f9G85AboitGChWpnfAJM5gBWwfFgn6gNtrW4sM5VHIrRgp1KZr3qJoP5B/ljKAeB9BEZ3AOZA9xAItxSaR/m1WAHRHeAf5usL9YCjEplvAyDy8+VE6wgI77MOggQOgA4dV0JjupnQqcz6jLDKrtPfldC/A+MhEFE/zWPCzuGoRObx3C6zTyM2eTUEbj4CLUvbbYROZb7TyhvAWN08y16+zUZcqOvQjGIeqyHN9yU34A2g895S/sxw7I3MLFpgbACtHMUDKRbXlmM/wSozfVieKp8CnqXdk3FM5u41gPtHBg81KDz1M9kFHPsh83Ei58zL182x65GZMOTreMBMX+qsgJkPnGtt6D1QjD8At7SuBxBeZOVm9OmmeQuMaPlB/VexvAcGxmhG9caBVmcC3LSS/5F5g5y31pdlyzkwbgNNdbyv9S2d+Syz4mN0vyVCX9n2OQdK5G/Zdf9POPZC5pvviZyX6vUZCeInQi3pE+QPcAuRiSKZL2nkoRgmr0P6+z5LF0ZqXb34mrVhaUMlS/z3BdCnVONEFdBNoM5xxddfJXnz+NxTVS8CfH4//B619vGNxWWazOcXwFK1N/s6aSd1WOaZ1s9NZCasQlcsMsGxFzJPVokIXhuYPagOzYGw90zZDJa5AVyeZp6wAL42shG2ZUg6AkfA7ZFxrYJlhncCdIyRjc/D144zPRQB4Gnv0x8Y53wDhCQuvdbqNU+z9meazHRjBMb72oQ1ofdAZIKjeplPktFloUYz2vz9+zaru8s8szU1p0L/QGiaH/hAGCQZjzQ0OVlC6xqxQGaicwoEQ2Ax1zIpalSPz6uWDCx3ygdjmfF31tYaql4q8/fdCcdC0/KmapEJjsplPvuiOmAb4TQBtxVZPxen5qIJEA6AvnbdJktDXaLjPWDQVwUWmWnNbF6nSOZUrChZPoy/AKG6WVKZ+bzHxjnVviI9J19jCgw8C5/WR+ZS+5EnQELvg8gER+UyN/8EFkGxqOZ3M5q/Aee2TUgJcssMC5QDp1j8o5Vb5CyUrqA+z0DxwyLtvaZrb0Pm4MQ4J7e3yMx7DRv6BtA85goclcv8VEbTzduWkZll0keydETdRmZLmT4LsGzptX6sZ08GP4z274CF0ZbxPgEDNduIzM/MNkJucyOUkTndaHEmYqoyKhRlZeYlAS2Ppsk5+pp8cZnKPPC6mWXTBadRnOot6EklZXaoTOuDvgegZRjV5ZQi90tkfmZ8SsUF6yNPKQ6BGUn22XKsBGVkpgzHSMvx0oaU8s5xlJWZrvV1/VH5DaXSKHPCpj4A41Z+mUFQ7njG2RL67gj1wdwAKqhvet46TtNdZ5kQkfm5USMXj1BlWVCjx55EOUpTWyPv5CmlQ1Qrs/40zPgK6M+Y9fJ52heByudSWFOBL5zKZRYKOE5moChQMxLlunm58kJnpccQmfeVd8CENnvaA5U4L/1SZ6UScIjMQu0RmQVnEJkFZxCZBWcQmQVnEJkFZxCZBWfIySw/0CPUjqIf6JGfThPqRuFPp0lI1D1EZgln4j9QNIQvk6QreAAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <If Condition="[Mode = &quot;Affichage&quot;]" sap:VirtualizedContainerService.HintSize="492,525" sap2010:WorkflowViewState.IdRef="If_1">
+              <If.Then>
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,296" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="CommentOut_8">
+                    <ui:CommentOut.Body>
+                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,278" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Édition(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_19" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="610e45f0-1828-4f7b-97bb-9244f124cf57" Version="V5">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="groupesalins.sharepoint.com/sites/ITInfrastructureOperations/_layouts/15/stream.aspx" CVScreenId="2f75f9c7-711a-4d26-b2b9-76539ba5780b" ContentHash="Q72OE-cQFUWpZCmcbdXtwg" CvTextArea="1619, 327, 55, 20" CvTextArgument="Édition" CvType="Text" DesignTimeRectangle="1560, 70, 150, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-role='menuitem' tag='BUTTON' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button' idx='10' /&gt;" Guid="a43a5d4e-b446-414f-bf1d-51677b2a115a" InformativeScreenshot="2133cc9bb6623cbc9883e54364ec39e5.png" Reference="DnpjYv1ptEqBci6zaOiygg/PoDzwgGe90eytF2kPC8weg" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='{}' title='*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CVScreenId="2f75f9c7-711a-4d26-b2b9-76539ba5780b" CvElementArea="1724, 315, 181, 45" CvTextArea="1781, 330, 71, 21" CvTextArgument="Partager" CvType="Button" DesignTimeRectangle="1783, 330, 67, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='id__88' tag='SPAN' type='' class='ms-Button-label label-115' aaname='Partager' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Partager' /&gt;" Guid="e41b0e27-5863-4d29-8bbe-5f3afb4c5db6" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEcAAAAWCAYAAACSYoFNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAMSSURBVFhH7ZfPattAEMbzRnmRvECeoLecC4HeCg2GnJ1bIBAaTMGgg6GmISSHgCAGHQQ1JkYEBAYLbIwMCzJ8ZaQZabRam/zxoQ5e+EBe7c7O/rQ7Mz44OwT2cuvA7tir0h7OBu3hbNAezgbV4Nz6aLYVYMaAf9Kc/NnlhrMCsiVrxX0GCLYF6BsQjQAzBW7td/+R3HDGatAREM2K7mzQNPAudXmdxa7DOQTaHvdPAc9h5M36THDszfQ9YM6nKW8rYO4DHTUnWhSvonNgOC6ek27Vb7eAPsJX4Jmum6n6sxkQfq/7Q+OiWI2ZAE+X+c1vAO9cAonyNVsA0RXQ5veB8s0fFM/GfwOc3gP3j4rfCT3PgGRUyHBcSu+acBJePH/uAsEASCbcQVDZxr2svwLSMdue8jgD+Eds+wRIBB7Pzz+U9Ck4nS6Q8Xzb18lVHc5c+fk6OEdA77paVwz6ijzJde3KE2KA4Y9qbK4118q7APrH9bFiR9a+56+LGPAEGPkUWja/AAmBoN9qXPu6mv9TwSHQsbUvNxxHSx+riXSsQx9I4iKjlU1tVjaVPtQ3m2sNHFL/GohHQLpQmZJPXW6Xr4jAKnVuXatf1Vxn43ElnL91MCQ3HE7lZgIkIRCoL98WJ+hQ0PsBEAb1BfNNqJhT2wRpDZzSUVNcl+g3kDD8Eo7YbVk2WxYcWWMKhJ5DN/WTM/eafrrh2AFZaciBMP2j+h2bXbuJNePPLjg+LFV80bHLghNfWDZlvgNOz15fSQdk+92b4YhzmnT5xT8Cx9GnT6k4X671Us+O4Ys1/xRIrbki7wYI+TZsFU4Z+CTTTIHMkSk2wpErQKl1WtgI1GbyPs4sEnfEeQ2MThmNS6mSn1knx4qhlO5prJQg4tdW4VAGe1Y1hhkVdU/eXguH1rqr/zV5otRLmVF2vgSiy+a1IlHtMpdsSP/9yAc7ILPIN1035Wn9ocp0r4azy2qrGLOVKv7TwDmuUryzdHindg9OC0gNYGKueqnWkus5qxd8H9XuwTkFJhR8VYGY10WDZnX9Uf0D6Hh7qQLDxmsAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionOptions.Retry>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                      </Sequence>
+                    </ui:CommentOut.Body>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </ui:CommentOut>
+                  <ui:SelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'BUTTON'" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="SelectItem_1" Item="Édition">
+                    <ui:SelectItem.Items>
+                      <scg:List x:TypeArguments="x:String" Capacity="4">
+                        <x:String>Édition</x:String>
+                        <x:String>Affichage</x:String>
+                      </scg:List>
+                    </ui:SelectItem.Items>
+                    <ui:SelectItem.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="0829d766-7a23-4304-8a52-50115900fa87" InformativeScreenshot="8763960904d33618238b873d415847aa" Selector="&lt;webctrl aria-role='menuitem' name='Édition' tag='BUTTON' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:SelectItem.Target>
+                  </ui:SelectItem>
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </If.Else>
+            </If>
             <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="492,544" sap2010:WorkflowViewState.IdRef="RetryScope_1">
               <ui:RetryScope.ActivityBody>
                 <ActivityAction>
@@ -218,9 +309,9 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Transcription(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,227" sap2010:WorkflowViewState.IdRef="NClick_18" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="16bd92fd-f393-4135-a8dd-e8188953d503" Version="V5">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Transcription(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,227" sap2010:WorkflowViewState.IdRef="NClick_20" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="16bd92fd-f393-4135-a8dd-e8188953d503" Version="V5">
                       <uix:NClick.Target>
-                        <uix:TargetAnchorable BrowserURL="groupesalins.sharepoint.com/sites/TOGETHERLEARNINGCENTER/_layouts/15/stream.aspx" CVScreenId="45f49d0c-01cc-4d64-b153-ff920d04493b" ContentHash="FGCh-WsyQ0yfoeTK-JQ7Kw" CvTextArea="1842, 706, 72, 16" CvTextArgument="Transcription" CvType="Text" DesignTimeRectangle="1839, 657, 80, 80" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;span' idx='4' parentid='appRoot' tag='SPAN' /&gt;" Guid="acd9ed08-6de6-4a17-b97c-eaf32ff0f6db" InformativeScreenshot="0bd8d04bef9164245226d4ac81958a57.png" Reference="DnpjYv1ptEqBci6zaOiygg/_ClQ2vpzR0yC6xYKD1a-5w" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='{}' title='*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                        <uix:TargetAnchorable BrowserURL="groupesalins.sharepoint.com/sites/ITInfrastructureOperations/_layouts/15/stream.aspx" CVScreenId="3f69eff9-a749-46ee-8b21-38d2456efba3" ContentHash="S1F3mAwz4UKCgj__wBvp4A" CvTextArea="1842, 486, 72, 15" CvTextArgument="Transcription" CvType="Text" DesignTimeRectangle="1844, 486, 70, 13" ElementType="Text" FullSelectorArgument="&lt;webctrl id='id_*' tag='SPAN' aaname='Transcription' innertext='Transcription' visibleinnertext='Transcription' /&gt;" Guid="432d20a4-1e12-4c0f-a84d-02580c737368" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEoAAAARCAYAAAB6mTpFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGcSURBVFhH7ZVNjoMwDIV7pJbDlJuQ3gUJ7oGEOEfVTS/Bho1HSQi82GkIbaczlbJ4EjjBP18ccxjHibK2deCGrLAyqERlUIn6ClD95UjFZRD2bQ1UnY5Uddy+XzMo67AI6B1BPqc7NeffyVl2VKeoOLd04/av0J+B0p1WUlMr011lfRfdZ20TjdeWypOiXn/P18aJbnW5dipcI89u4sqY+uo5X/Z5MEDsdyU1V5cr3Ab0ZdYDeyAP6VdRvw8Umw+dWk/MwJkTMc+wF9cedKmBBPa+dsWFilhBrXBm30tRvKMQlF3Dw4v55XMxARSeCJcOjqDwFCBpsca+9ewyJi8Ii/XhRECFDkvnNduEX7b/CVA2maV9vY7yYejgS9LLlXR7tG8OLxwzDgrjbIASf841B+EXIOr3naB4IrGOYqCEf+7bSdrjoLAzeX4vdNRroNi7mFEJoGCfmQPBGRUHhYPWn3MRUOY5PqPeCAqvkC5SUZXSUfhNAIL/F5IxZUEt/L3Y9XWxgl1rYbl4j6AZbYL65xIFfUgZVKIyqET9AEGBZO15+EwfAAAAAElFTkSuQmCC" InformativeScreenshot="757a272994d9d98867cb762a24d847b3.png" Reference="DnpjYv1ptEqBci6zaOiygg/Y21O7HWAukKg_aqv455_Ng" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='{}' title='*' /&gt;" SearchSteps="Selector, Image, CV" Version="V6" Visibility="Visible" WaitForReadyArgument="Complete" />
                       </uix:NClick.Target>
                       <uix:NClick.VerifyOptions>
                         <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">

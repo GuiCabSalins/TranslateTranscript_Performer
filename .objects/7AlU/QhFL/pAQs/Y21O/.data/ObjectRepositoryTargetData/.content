@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="S1F3mAwz4UKCgj__wBvp4A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="groupesalins.sharepoint.com/sites/ITInfrastructureOperations/_layouts/15/stream.aspx" CVScreenId="3f69eff9-a749-46ee-8b21-38d2456efba3" CvTextArea="1842, 486, 72, 15" CvTextArgument="Transcription" CvType="Text" DesignTimeRectangle="1844, 486, 70, 13" ElementType="Text" FullSelectorArgument="&lt;webctrl id='id_*' tag='SPAN' aaname='Transcription' innertext='Transcription' visibleinnertext='Transcription' /&gt;" Guid="432d20a4-1e12-4c0f-a84d-02580c737368" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEoAAAARCAYAAAB6mTpFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGcSURBVFhH7ZVNjoMwDIV7pJbDlJuQ3gUJ7oGEOEfVTS/Bho1HSQi82GkIbaczlbJ4EjjBP18ccxjHibK2deCGrLAyqERlUIn6ClD95UjFZRD2bQ1UnY5Uddy+XzMo67AI6B1BPqc7NeffyVl2VKeoOLd04/av0J+B0p1WUlMr011lfRfdZ20TjdeWypOiXn/P18aJbnW5dipcI89u4sqY+uo5X/Z5MEDsdyU1V5cr3Ab0ZdYDeyAP6VdRvw8Umw+dWk/MwJkTMc+wF9cedKmBBPa+dsWFilhBrXBm30tRvKMQlF3Dw4v55XMxARSeCJcOjqDwFCBpsca+9ewyJi8Ii/XhRECFDkvnNduEX7b/CVA2maV9vY7yYejgS9LLlXR7tG8OLxwzDgrjbIASf841B+EXIOr3naB4IrGOYqCEf+7bSdrjoLAzeX4vdNRroNi7mFEJoGCfmQPBGRUHhYPWn3MRUOY5PqPeCAqvkC5SUZXSUfhNAIL/F5IxZUEt/L3Y9XWxgl1rYbl4j6AZbYL65xIFfUgZVKIyqET9AEGBZO15+EwfAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='{}' title='*' /&gt;" SearchSteps="Selector, Image, CV" Version="V6" Visibility="Visible" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="757a272994d9d98867cb762a24d847b3.png" xmlns="">0S5eEOxrq20Or78igW7KCoQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
